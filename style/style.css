@@ -63,8 +63,8 @@ td {
 
 .menu {
     position: fixed;
-    margin-top: 8%;
-    margin-left: 5%;
+    top: 8%;
+    left: 5%;
     font-size: 200%;
 }
 
