@@ -14,8 +14,8 @@ body {
 
 h1 {
     position: fixed;
-    top: 5%;
-    left: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
     font-style: italic;
     font-weight: normal;
     font-size: 300%;
@@ -24,13 +24,14 @@ h1 {
 }
 
 .contenu {
-    position: absolute;
+    position: relative;
     left: 25%;
     top: 30%;
     width: 55%;
     height: 50%;
     overflow-y: auto;
     scroll-behavior: smooth;
+    margin-top:0%;
 }
 
 .infos {
@@ -63,8 +64,8 @@ td {
 
 .menu {
     position: fixed;
-    top: 8%;
-    left: 5%;
+    margin-top: 8%;
+    margin-left: 5%;
     font-size: 200%;
 }
 
@@ -76,7 +77,7 @@ h3 {
 
 
 ul {
-    width: 200px;
+    width: 50%;
     background-color: beige;
     opacity: 60%;
     list-style-type: none;
