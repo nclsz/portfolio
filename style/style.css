@@ -19,11 +19,10 @@ h1 {
     font-style: italic;
     font-weight: normal;
     font-size: 300%;
-
 }
 
 .contenu {
-    position: relative;
+    position: fixed;
     left: 25%;
     top: 30%;
     width: 55%;
@@ -161,4 +160,172 @@ footer {
     margin-top: 3%;
     width: 70%;
 
+}
+
+@media screen and (max-width: 1000px)
+ {   
+    .contenu {
+    top: 15%;     
+} 
+
+.playbio {
+    position: fixed;
+    top: 10%;
+    left: 75%;
+    width: 5%;
+    height: 5%;
+}
+
+    .infos {
+        font-size: 100%;
+    }
+
+    .menu {
+        font-size: 100%;
+    }
+
+    .concerts {
+        font-size: 80%;
+    }
+
+    h1 {
+        top: 0.5%;
+        font-size: 240%;
+    }
+
+    li a {
+        padding: 2px 4px;
+    }
+
+    footer {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 730px)
+ {   
+    .contenu {
+        top: 10%;
+    left: 25%;    
+} 
+
+.playbio {
+    position: fixed;
+    top: 7%;
+    left: 70%;
+    width: 5%;
+    height: 5%;
+}
+
+    .infos {
+        font-size: 70%;
+    }
+
+    .menu {
+        font-size: 70%;
+    }
+
+    .concerts {
+        font-size: 60%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    li a {
+        padding: 2px 4px;
+    }
+
+    footer {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 570px)
+ {   
+    .contenu {
+        top: 10%;
+    left: 30%;    
+} 
+
+.playbio {
+    position: fixed;
+    top: 7%;
+    left: 75%;
+    width: 5%;
+    height: 5%;
+}
+
+    .infos {
+        font-size: 70%;
+    }
+
+    .menu {
+        font-size: 70%;
+    }
+
+    .concerts {
+        font-size: 60%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    li a {
+        padding: 2px 4px;
+    }
+
+    footer {
+        font-size: 60%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px)
+ {   
+    .contenu {
+    top: 10%;
+    left: 40%;    
+} 
+
+    .playbio {
+    position: fixed;
+    top: 7%;
+    left: 75%;
+    width: 5%;
+    height: 5%;
+}
+
+    .infos {
+        font-size: 70%;
+    }
+
+    .menu {
+        font-size: 70%;
+        margin-left: 0%;
+        left:0%;
+        top: 5%;
+        width: 60%;
+    }
+
+
+    .concerts {
+        font-size: 60%;
+    }
+
+    h1 {
+        font-size: 140%;
+    }
+
+    li a {
+        padding: 2px 4px;
+    }
+
+    footer {
+        font-size: 60%;
+    }
 }
